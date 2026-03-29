@@ -1,8 +1,9 @@
 ![Logo of CampWiz](./logo.svg)
 ## CampWiz 
-This is a tool to help you to review media uploaded to Wikimedia Commons. This tool is designed to help you to evaluate any photography contest organized each year wikimedia commons. The tool is the visioned by Tiven Gonsalves, the lead coordinator of Wiki Loves Folklore. The tool is hosted on [https://campwiz.toolforge.org/](https://campwiz.toolforge.org/).
+CampWiz is a tool that helps users review and evaluate media uploaded to Wikimedia Commons. This tool is designed to help you to evaluate any photography contest organized each year wikimedia commons. The tool is the visioned by Tiven Gonsalves, the lead coordinator of Wiki Loves Folklore. The tool is hosted on [https://campwiz.toolforge.org/](https://campwiz.toolforge.org/).
+
 ### Basic functionality
-This tool let you
+This tool lets you
 - Create a campaign.
 - Create rounds for each campaign.
 - Create evaluation criteria for the rounds.
@@ -11,13 +12,17 @@ This tool let you
 - Evaluate the Images/AUDIO/VIDEO based on the criteria.
 - Export the evaluation result into csv/Excel format.
 - View the evaluation result.
+  
 ### What CampWiz does not do
 As of now, CampWiz does not provide the following features:
 - any way to directly upload the images to Wikimedia Commons.
-- hosting **article** writing competition. But for that, you can use [CampWiz v1.0](https://tools.wikilovesfolklore.org/campwiz/).
+- hosting **article** writing competition. But for that, you can use [CampWiz v1.0](https://campwiz.toolforge.org/campwiz/).
+  
 ## Prerequisites
-To access the tool, you need to have a device with an internet connection and a web browser. The tool is optimised to work on all devices, including mobile phones, tablets, and desktop computers. Also, you need to have an active Wikimedia account to access the tool. Apart from these, you should not need any other prerequisites to access the tool. Please go to the tool located at [https://campwiz.wikilovesfolklore.org/](https://campwiz.wikilovesfolklore.org/).
-## FRAMEWORK
+To access the tool, you need to have a device with an internet connection and a web browser. The tool is optimised to work on all devices, including mobile phones, tablets, and desktop computers. Also, you need to have an active Wikimedia account to access the tool. Apart from these, you should not need any other prerequisites to access the tool. Please go to the tool located at [https://campwiz.toolforge.org/](https://campwiz.toolforge.org/).
+
+```md
+##  Project Structure
 1. Project : Project are project names like Projects like Wiki Loves Folklore/Wiki Loves X etc
 2. Campaign : Campaigns are yearly editions of the project like Wiki Loves Folklore 2025, Wiki Loves X 2025 etc
 3. Rounds : Rounds are jury rounds on a specific campaign.
@@ -35,11 +40,11 @@ The most of you would be using the tool is to evaluate the images/audios/videos 
 ### As a Jury
 This section will guide you on how to evaluate the images/audios/videos uploaded to Wikimedia Commons as a `Jury` of a round.
 #### Evaluate the submissions (Images/Audio/Video)
-1.  Go to the tool located at [https://campwiz.wikilovesfolklore.org/](https://campwiz.wikilovesfolklore.org/).
+1.  Go to the tool located at [https://campwiz.toolforge.org/](https://campwiz.toolforge.org/).
 2.  Click on the `Login` button. You will be redirected to the Wikimedia OAuth page. 
-3.  After logging in, you should click on `Authorize` to give the tool the necessary permissions. (The tool will only have access to your username and the date you created the wikipedia account. For more information, please read the [Privacy Policy](https://campwiz.wikilovesfolklore.org//policy/privacy)).
+3.  After logging in, you should click on `Authorize` to give the tool the necessary permissions. (The tool will only have access to your username and the date you created the wikipedia account. For more information, please read the [Privacy Policy](https://campwiz.toolforge.org//policy/privacy)).
 4.  After clicking on `Authorize`, you will be redirected back to the tool. You should see the list of the ongoing campaigns. Click on the `Go to Campaign` button to start evaluation.
-5.  You will be brought to thecampaign page. You should see all the rounds, campaign information, and a button called `Evaluation Area`. Click on the `Evaluation Area` button to start evaluating the images.
+5.  You will be brought to the campaign page. You should see all the rounds, campaign information, and a button called `Evaluation Area`. Click on the `Evaluation Area` button to start evaluating the images.
 
 ![Evaluation Area Screenshot](./screenshots/evaluation%20area-highlighted.png)
 
@@ -51,12 +56,13 @@ This section will guide you on how to evaluate the images/audios/videos uploaded
    
 ![No pending submissions](./screenshots/all-set.png)
 
-8. You canalways come back to the evaluation area by clicking on the `Evaluation Area` button (if the round is still active).
+8. You can always come back to the evaluation area by clicking on the `Evaluation Area` button (if the round is still active).
     
 ### As a Lead/Coordinator
 This section will guide you on how to create a campaign as well as create rounds on a campaign.
+
 #### Creation of campaign and rounds by Lead/Coordinator.
-1. A Lead can create a campaign using the dashboard section on the Homepage at [https://campwiz.wikilovesfolklore.org/](https://campwiz.wikilovesfolklore.org/)
+1. A Lead can create a campaign using the dashboard section on the Homepage at [https://campwiz.toolforge.org/](https://campwiz.toolforge.org/)
 2. Use the `Create Campaign` button and create campaign by inputting information like 
     - Name of the campaign 
     - Date range of the campaign - All images during this date frame will only be taken into the tool. 
@@ -64,7 +70,7 @@ This section will guide you on how to create a campaign as well as create rounds
     - Rules of the campiagn/ Wikimedia Commons Link.
     - Adding of Coordinators.
 3. Lead/Coordinator can edit the campaign details.
-4. Lead/Coordinaors can create a round in the specific campaign. The same can be done by clicking `Create Round` button on the campaign page.
+4. Lead/Coordinators can create a round in the specific campaign. The same can be done by clicking `Create Round` button on the campaign page.
 5. A new popup with details to be included as below.
     - Name of the round - A custom name like `prejury round` / `Round 1` etc can be filled in the name.
     - Voting deadline - A deadline for the campaign.
@@ -82,7 +88,7 @@ This section will guide you on how to create a campaign as well as create rounds
 ### As an Admin
 This section will guide you on how to create a Project 
 #### Creation of Project by Tool Admin.
-1. An Admin can create a Project by using the dashboard section on the Homepage at [https://campwiz.wikilovesfolklore.org/](https://campwiz.wikilovesfolklore.org/)
+1. An Admin can create a Project by using the dashboard section on the Homepage at [https://campwiz.toolforge.org/](https://campwiz.toolforge.org/)
 2. Admin can click on the `Create Project` on the dashboard.
 3. create Project by inputting information like 
     - Name of the Project
@@ -106,6 +112,7 @@ Team Member
 If not otherwise mentioned, this tool is licensed under the GPL-3.0 license. You can find the full text of the license in the [LICENSE](./LICENSE.md) file.
 
 ***The code located inside [`extensions`](./extensions/) is not part of this codebase and therefore, it is not covered by this license. The code inside the `extensions` folder is covered by seperate license mentioned there.***
+
 ## Timeline
 - [x] 2025-03-22: Initial version of the tool is ready.
 - [x] 2025-03-25: The tool will be ready for testing.
@@ -141,3 +148,11 @@ History & Vision Authored by [Tiven Gonsalves](https://github.com/Tiven2240) Lea
 ## Some happy memories
 - [Wikimedia CH having an interview about CampWiz being the one of the coolest tool award 2024](https://wikimedia.ch/en/news/surprise-at-the-wikimania-why-wikimedia-ch-had-a-special-reason-to-be-happy/)
 - [The you tube video showing CampWiz being one of the coolest tool award](https://www.youtube.com/watch?v=F-Z2ODmUySY)
+
+  ##  Local Setup
+
+To run the project locally:
+
+```bash
+npm install
+npm run dev
